@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Loops</title>
+    <script>
+    let theNumber = Number(prompt("Pick a Number"));
+if (!Number.isNaN(theNumber)){
+    console.log("Your number is the square root of " + theNumber * theNumber);
+  /* Above here got me confused at first, but became clearer when I expanded it "theNumber" is actually a number because it has been converted from a string to a number with the "Number(prompt("Pick a number") syntax
+  saying if(Number.isNaN(theNumber)) would make it false because it is a number, unless I negate the "Number" */
+ 
+} else{
+    console.log("Hey. Why didn't you give me a number?");
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>7
