@@ -48,3 +48,39 @@ function clickMachine() {
 
 }
 
+/* need   
+   1. 1 object 
+      a. 3 attributes/Var
+      b. 4 methods
+      const calculator {
+         numberCalcIn1: 0.0,
+         numberCalcIn2: 0.0,
+         calcResult: 0.0,
+
+         add: function() {
+            // you will have code here to process
+            this.calcResult = parseFloat(this.numberCalcIn1) + parseFloat(this.numberCalcIn2);
+            return;
+         }
+         .
+         .
+         .
+         .
+      }
+
+
+   2. 1 function calc(buttonID)
+         a. read two inputs 
+         b. set a result var
+         c. parseFloat  (see line 38)
+         d. switch (buttonID) {
+               case "+":
+               //console.log("add Button ID : ");
+               result = calculator.add();
+               break;
+            (chapter 2 or 3 in the reading)
+         e. do the output to the <div> (see lines 46 & 47) 
+            make needed changes
+      */
+
+
