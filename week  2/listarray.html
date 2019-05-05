@@ -6,10 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-    function range(){
-let start = Math.min()
+    function range(arr){
+let start = Math.min(arr[0], arr[1] );
+let end = Math.max(arr[0], arr[1]);
+let  total = 0;
+let i=start;
+
+for ( i; i<=end; i++){
+total +=i;
+}
+console.log(total);
+/* return total; */
+
+
+
+
     }
-    range(1,10);
+    range([1,10]);
+
+
     </script>
 </head>
 <body>
