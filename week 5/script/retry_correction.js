@@ -4,11 +4,11 @@ function primitiveMultiply(a, b) {
   if (Math.random() < 0.2) {
     return a * b;
   } else {
-    throw new MultiplicatorUnitFailure("Klunk");
+    throw new MultiplicatorUnitFailure("Error in %");
   }
 }
 
-function reliableMultiply(a, b) {
+function runMultiply(a, b) {
   for (;;) {
     try {
       return primitiveMultiply(a, b);
@@ -19,5 +19,4 @@ function reliableMultiply(a, b) {
   }
 }
 
-console.log(reliableMultiply(8, 8));
-// → 64
+console.log(runMultiply(8, 8));
